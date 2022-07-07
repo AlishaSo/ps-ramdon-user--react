@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ps-ramdon-user--react/static/css/main.88c2f323.css",
+    "main.js": "/ps-ramdon-user--react/static/js/main.9b91bb2b.js",
+    "index.html": "/ps-ramdon-user--react/index.html",
+    "main.88c2f323.css.map": "/ps-ramdon-user--react/static/css/main.88c2f323.css.map",
+    "main.9b91bb2b.js.map": "/ps-ramdon-user--react/static/js/main.9b91bb2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88c2f323.css",
+    "static/js/main.9b91bb2b.js"
+  ]
+}
