@@ -4,7 +4,7 @@ function UserSummary(props) {
   const [showMore, setShowMore] = React.useState(false);
 
   return (
-    <div>
+    <div className='user-container'>
       {props.userData == null ?
         <p>There is no user data</p>
         :
@@ -28,7 +28,7 @@ function UserSummary(props) {
         </p>
         }
 
-        <button onClick={() => setShowMore(!showMore)}>{!showMore ? 'Show More' : 'Show Less'}</button>
+        <button id='show-more-btn' className='btn' onClick={() => setShowMore(!showMore)}>{!showMore ? 'Show More' : 'Show Less'}</button>
     </div>
   )
 }
